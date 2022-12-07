@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #fff
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  padding: 20px 20px;
+  border: 1px solid;
+  border-color: #343434;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 40%;
+  border: 2px solid #242424;
+  background-color: #342434;
+  border-radius: 10px;
+}
+
+.card .card-title {
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.card-body-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body-title > p {
+  margin-left: 3%;
+}
+
+.card-body-title div {
+  display: flex;
+  align-items: center;
+}
+
+.card-body-title div button {
+  padding: 10px;
+  margin: 5px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-body p {
+  text-align: justify;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.info {
+  outline: none;
+  background-color: #191970;
+}
+
+.danger {
+  outline: none;
+  background-color: #bc0606;
+}
+
+form {
+  margin: 20px auto;
+  border: 3px solid;
+  width: 20%;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+button {
+  cursor: pointer;
+}
+
+form div {
+  padding: 8px;
+  margin-bottom: 1px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 18px;
+}
+
+.textarea {
+  resize: none;
+  height: 100px;
+}
+
+.add {
+  padding: 10px 15px;
+}
+
+.save {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  form {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  form {
+    width: 70%;
+  }
+}
