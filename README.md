@@ -1,3 +1,8 @@
+First, clone this repository using the next command on your terminal:
+```bash
+    git clone https://github.com/DRUMPADD/django_react_task_app.git
+```
+
 ## Execute Django server
 ```bash
     cd backend
